@@ -1,0 +1,58 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --config-name configDev",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "http-server dist",
+    "translate-import": "node translate-import"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/start-website/pwa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/start-website/pwa/issues"
+  },
+  "homepage": "https://github.com/start-website/pwa#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "bundle-loader": "^0.5.6",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "globs": "^0.1.4",
+    "gulp-translate": "^1.5.9",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
+    "imports-loader": "^4.0.1",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^2.7.2",
+    "postcss": "^8.4.20",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.0.2",
+    "postcss-nesting": "^10.2.0",
+    "postcss-preset-env": "^7.8.3",
+    "ref-loader": "^1.0.3",
+    "script-loader": "^0.7.2",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.2.4",
+    "translation-loader": "^1.1.2",
+    "val-loader": "^5.0.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "workbox-webpack-plugin": "^6.5.4"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "workbox-window": "^6.5.4"
+  },
+  "main": "postcss.config.js"
+}
