@@ -1,7 +1,7 @@
 import { Workbox } from "workbox-window/Workbox.mjs";
 
 if ("serviceWorker" in navigator) {
-    const wb = new Workbox("/pwa-sw.js");
+    const wb = new Workbox("./pwa-sw.js", {scope: "https://start-website.github.io/pwa/dist/en/"});
 
     const getToastUpdate = () => {
         const style = `

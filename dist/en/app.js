@@ -1207,7 +1207,7 @@ module.exports = function (urlString) {
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1680670839131
+      // 1680671165328
       var cssReload = __webpack_require__(783)(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -3428,7 +3428,7 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 
 
 if ("serviceWorker" in navigator) {
-    const wb = new workbox_window_Workbox_mjs__WEBPACK_IMPORTED_MODULE_0__/* .Workbox */ .Z("/pwa-sw.js");
+    const wb = new workbox_window_Workbox_mjs__WEBPACK_IMPORTED_MODULE_0__/* .Workbox */ .Z("./pwa-sw.js", {scope: "https://start-website.github.io/pwa/dist/en/"});
 
     const getToastUpdate = () => {
         const style = `
@@ -4799,7 +4799,7 @@ class Workbox extends WorkboxEventTarget {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("32d0f580f18059c57e12")
+/******/ 		__webpack_require__.h = () => ("5bbe8f7e926b18e98026")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
