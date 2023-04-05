@@ -1,5 +1,5 @@
 (function () {
-    importScripts("./js/workbox-sw.js");
+    importScripts("/js/workbox-sw.js");
 
     workbox.setConfig({
         debug: true,

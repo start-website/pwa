@@ -12,42 +12,42 @@
     {
         "type": "image/png",
         "sizes": "192x192",
-        "src": "/images/manifest/logo-192x192.png"
+        "src": "./images/manifest/logo-192x192.png"
     },
     {
         "type": "image/png",
         "sizes": "48x48",
-        "src": "/images/manifest/logo-48x48.png"
+        "src": "./images/manifest/logo-48x48.png"
     },
     {
         "type": "image/png",
         "sizes": "72x72",
-        "src": "/images/manifest/logo-72x72.png"
+        "src": "./images/manifest/logo-72x72.png"
     },
     {
         "type": "image/png",
         "sizes": "128x128",
-        "src": "/images/manifest/logo-128x128.png"
+        "src": "./images/manifest/logo-128x128.png"
     },
     {
         "type": "image/png",
         "sizes": "384x384",
-        "src": "/images/manifest/logo-384x384.png"
+        "src": "./images/manifest/logo-384x384.png"
     },
     {
         "type": "image/png",
         "sizes": "512x512",
-        "src": "/images/manifest/logo-512x512.png"
+        "src": "./images/manifest/logo-512x512.png"
     },
     {
         "type": "image/png",
         "sizes": "96x96",
-        "src": "/images/manifest/logo-96x96.png"
+        "src": "./images/manifest/logo-96x96.png"
     },
     {
         "type": "image/png",
         "sizes": "1024x1024",
-        "src": "/images/manifest/maskable-1024x1024.png",
+        "src": "./images/manifest/maskable-1024x1024.png",
         "purpose": "maskable"
     }
 ]
